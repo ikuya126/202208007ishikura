@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="course.php" method="post">
+    <label>お名前：<input type="text" name="name"></label>
+    <br />
+    <label for="">ご希望商品：</label><input type="radio" name="box1" value="Aセット">
+    <input type="radio" name="box2" value="Bセット">
+    <input type="radio" name="box3" value="Cセット">
+    <br>
+    <label for="">注文数</label>
+    <select name="order" id="">
+      <option value="1" selected></option>
+      <option value="2"></option>
+      <option value="3"></option>
+      
+    </select>
+    <br>
+
+
+    <input type="submit" name="submit" value="送信" />
+  </form>
+</body>
